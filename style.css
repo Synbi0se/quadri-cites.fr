@@ -1,6 +1,7 @@
 .all{
-    background: #feffe6;
+    background: #fffff0;
     min-height: 1vw;
+    overflow: none;
 }
 .qc{
     font-weight: bold;
@@ -11,27 +12,34 @@
                     NAVBAR
 ================================================= */
 .navi{
-    background: #9f9f90;
+    background: #8f8f8a;
     display: block;
 }
 .navi img{
-    margin: 20px 0 0 20px;
+    padding: 1rem;
+    width: 100%;
     max-width: 300px;
 }
 .nav-band{
     min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-lnk{
     color: #000;
     text-decoration: none;
+    height: 100%;
     min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    padding: 0 5px;
+    margin: 0 5px;
 }
 .nav-lnk:hover{
-    background: #7f8073;
+    background: #11111120;
     transition: 0.5s;
 }
 .nav-current{
@@ -57,12 +65,13 @@
                     FOOTER
 ================================================= */
 footer{
-    background: #9f9f90;
+    background: #8f8f8a;
     padding: 20px 0;
 }
 footer img{
-    height: 100%;
+    width: 100%;
     max-width: 400px;
+    margin: 0 20px ;
 }
 .footer-box{
     display: flex;
