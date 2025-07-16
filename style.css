@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Geometric";
+    src: url("Geometric.ttf");
+}
+
 .all{
     background: #fffff0;
     min-height: 1vw;
@@ -14,6 +19,8 @@
 .navi{
     background: #8f8f8a;
     display: block;
+    font-family: "Geometric";
+    font-size: 1.25rem;
 }
 .navi img{
     padding: 1rem;
@@ -57,6 +64,16 @@
 /* =================================================
                     PRESENTATION
 ================================================= */
+.equipe-box{
+    margin: 100px 0 100px;
+}
+.equipe-img{
+    text-align: center;
+}
+.equipe-img img{
+    width: 200px;
+    height: 200px;
+}
 .equipe-cv{
     text-align: right;
 }
@@ -67,6 +84,8 @@
 footer{
     background: #8f8f8a;
     padding: 20px 0;
+    font-family: "Geometric";
+    font-size: 1.25rem;
 }
 footer img{
     width: 100%;
