@@ -2,22 +2,49 @@
     font-family: "Geometric";
     src: url("ressources/Geometric.ttf");
 }
+@font-face {
+    font-family: "Geist";
+    src: url("ressources/Geist-Thin.ttf");
+}
 
+body{
+    min-width: 400px;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    font-family: "Geometric";
+}
 .all{
     background: #fffff5;
+    font-family: "Geist";
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 /* =================================================
                     NAVBAR
 ================================================= */
+.title-qc{
+    text-align: center;
+}
+.title-qc-img{
+    height: 5rem;
+}
 .nb{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px;
+    margin: 0 15% 50px;
 }
-.nb img{
-    height: 100%;
+.nb-lnx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.nb .nb-item{
-    text-decoration: none;
+.nb [class*=nb-item]{
     color: black;
     font-family: "Geometric";
     font-size: 1.25rem;
@@ -25,8 +52,60 @@
     align-items: center;
     justify-content: center;
     height: 80px;
-    border-bottom: solid 2px;
+    padding: 0 0.5rem;
 }
-.nb .nb-item:hover{
-    background: #ffffe5;
+.nb-item{
+    text-decoration: transparent;
 }
+.nb-item-cur{
+    text-decoration: underline;
+}
+.nb a:hover{
+    text-decoration: underline;
+}
+
+/* =================================================
+                    HOME
+================================================= */
+
+/* =================================================
+                    TEAM
+================================================= */
+
+/* =================================================
+                   PROJECTS
+================================================= */
+#projects img{
+    width: 100%;
+}
+#projects .box{
+    margin-bottom: 20px;
+}
+#projects .title{
+    text-align: center;
+    font-weight: bold;
+}
+#projects p{
+    margin-bottom: 0;
+}
+/* =================================================
+                  CONTACTS
+================================================= */
+#contacts ul{
+    list-style: none;
+    padding: 0;
+    margin: 100px auto 0;
+    text-align: center;
+}
+#contacts li{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-info{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* =================================================
+                  DOWNLOADS
+================================================= */

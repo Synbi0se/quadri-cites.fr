@@ -16,7 +16,7 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
     - CV + ref perso
 - PROJETS
   - automatique grâce au JS et CSV
-- CONTACT
+- CONTACTS
   - adresse
   - tél
   - mèl
@@ -29,3 +29,5 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
   - js et csv pour les projets : le js ouvre le csv et analyse ligne par ligne
 - GRAPHISME
   - trouver une ou deux polices et tous les logos necessaires
+
+### PROBLEMES
