@@ -3,8 +3,12 @@
     src: url("ressources/Geometric.ttf");
 }
 @font-face {
-    font-family: "Geist";
+    font-family: "Geist-Thin";
     src: url("ressources/Geist-Thin.ttf");
+}
+@font-face {
+    font-family: "Geist-Bold";
+    src: url("ressources/Geist-Bold.ttf");
 }
 
 body{
@@ -18,9 +22,24 @@ h1{
 }
 .all{
     background: #fffff5;
-    font-family: "Geist";
+    font-family: "Geist-Thin";
     font-size: 1.1rem;
     text-align: justify;
+}
+.qc-red{
+    color: #b0352d;
+}
+.qc-green{
+    color: #3a6e2d;
+}
+.qc-blue{
+    color: #2f348f
+}
+.qc-grey{
+    color: #696a6c;
+}
+.qc-bold{
+    font-family: "Geist-Bold";
 }
 
 /* =================================================
@@ -63,14 +82,73 @@ h1{
 .nb a:hover{
     text-decoration: underline;
 }
+/* =================================================
+                    INDEX
+================================================= */
+.index a{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.index h1{
+    font-size: 3rem;
+}
+.index img{
+    width: 100%;
+    max-width: 900px;
+}
 
 /* =================================================
                     HOME
 ================================================= */
-
+#home{
+    margin-bottom: 100px;
+}
+#home p{
+    margin: 12px 0 0;
+}
+.margin-title2{
+    margin-top: 200px;
+}
+#home ul{
+    margin-bottom: 0;
+    padding: 20px 0 20px 10vw;
+}
+#home .ul-2{
+    padding: 0 0 0 30px;
+}
+#home .li-1{
+    font-family: "Geist-Bold";
+}
 /* =================================================
                     TEAM
 ================================================= */
+#christophe .cv-link,#muriel .cv-link{
+    text-align: right;
+}
+#christophe a,#muriel a{
+    color: #000;
+    font-weight: bold;
+}
+#muriel,#partners{
+    margin-top: 50px;
+}
+#partners .part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#partners .part img{
+    width: 100%;
+    max-width: 150px;
+}
+#partners .part p{
+    text-align: center;
+}
 
 /* =================================================
                    PROJECTS

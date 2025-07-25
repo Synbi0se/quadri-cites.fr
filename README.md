@@ -6,6 +6,9 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
 ## A FAIRE AVEC LEUR CONTENU
 
 ### LISTE DES PAGES
+- INDEX
+  - logo en gros
+  - bouton d'entrée sur le site
 - ACCUEIL
   - présentation
   - prestations
