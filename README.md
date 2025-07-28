@@ -2,8 +2,14 @@
 Création d'un nouveau site web pour Quadri-Cités.  
 Il s'agit plutôt d'une restructuration de l'ancien mais bon...
 
+## TODO LIST
 
-## A FAIRE AVEC LEUR CONTENU
+- ```accueil``` ajouter des flèches de contenu
+- ```equipe``` maj cv + ref Christophe
+- ```equipe``` ajouter cv + ref Muriel
+- ```equipe``` ajouter des partenaires privilégiés
+- ```projet``` ajouter des petits icones helps
+- ```telechargement``` ajouter le contenu pré existant
 
 ### LISTE DES PAGES
 - INDEX
@@ -32,5 +38,3 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
   - js et csv pour les projets : le js ouvre le csv et analyse ligne par ligne
 - GRAPHISME
   - trouver une ou deux polices et tous les logos necessaires
-
-### PROBLEMES

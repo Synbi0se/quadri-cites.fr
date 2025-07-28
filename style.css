@@ -11,9 +11,6 @@
     src: url("ressources/Geist-Bold.ttf");
 }
 
-body{
-    min-width: 400px;
-}
 h1,h2{
     text-align: center;
 }
@@ -21,22 +18,28 @@ h1{
     font-family: "Geometric";
 }
 .all{
+    min-width: 400px;
     background: #fffff5;
     font-family: "Geist-Thin";
     font-size: 1.1rem;
     text-align: justify;
+    --qc-red: #b0352d;
+    --qc-green: #3a6e2d;
+    --qc-blue: #2f348f;
+    --qc-grey: #696a6c;
+    --qc-bold: "Geist-Bold"
 }
 .qc-red{
-    color: #b0352d;
+    color: var(--qc-red);
 }
 .qc-green{
-    color: #3a6e2d;
+    color: var(--qc-green);
 }
 .qc-blue{
-    color: #2f348f
+    color: var(--qc-blue); 
 }
 .qc-grey{
-    color: #696a6c;
+    color: var(--qc-grey);
 }
 .qc-bold{
     font-family: "Geist-Bold";
@@ -134,6 +137,11 @@ h1{
     color: #000;
     font-weight: bold;
 }
+#christophe img,#muriel img{
+    height: 1rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
 #muriel,#partners{
     margin-top: 50px;
 }
@@ -143,11 +151,18 @@ h1{
     align-items: center;
 }
 #partners .part img{
-    width: 100%;
-    max-width: 150px;
+    height: 100%;
+    max-height: 100px;
 }
-#partners .part p{
+#partners .part a{
+    margin-top: 10px;
     text-align: center;
+    font-family: var(--qc-bold);
+    text-decoration: none;
+    color: var(--qc-grey);
+}
+#partners .part a:hover{
+    color: var(--qc-blue);
 }
 
 /* =================================================
@@ -161,10 +176,13 @@ h1{
 }
 #projects .title{
     text-align: center;
-    font-weight: bold;
+    font-family: var(--qc-bold);
 }
 #projects p{
     margin-bottom: 0;
+}
+#projects .description{
+    margin: 15px 5px 0;
 }
 /* =================================================
                   CONTACTS
