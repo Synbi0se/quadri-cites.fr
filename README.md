@@ -6,6 +6,7 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
 
 - ```index``` modifier le meta:desc
 - ```accueil``` ajouter des flèches de contenu
+- ```accueil``` modifier la double liste
 - ```equipe``` maj cv + ref Christophe + ajouter un hover
 - ```equipe``` ajouter cv + ref Muriel + ajouter un hover
 - ```equipe``` ajouter des partenaires privilégiés
