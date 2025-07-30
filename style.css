@@ -7,8 +7,8 @@
     src: url("ressources/Geist-Thin.ttf");
 }
 @font-face {
-    font-family: "Geist-Bold";
-    src: url("ressources/Geist-Bold.ttf");
+    font-family: "Geist-Medium";
+    src: url("ressources/Geist-Medium.ttf");
 }
 
 h1,h2{
@@ -26,8 +26,7 @@ h1{
     --qc-red: #b0352d;
     --qc-green: #3a6e2d;
     --qc-blue: #2f348f;
-    --qc-grey: #696a6c;
-    --qc-bold: "Geist-Bold"
+    --qc-gray: #696a6c;
 }
 .qc-red{
     color: var(--qc-red);
@@ -38,17 +37,18 @@ h1{
 .qc-blue{
     color: var(--qc-blue); 
 }
-.qc-grey{
-    color: var(--qc-grey);
+.qc-gray{
+    color: var(--qc-gray);
 }
 .qc-bold{
-    font-family: "Geist-Bold";
+    font-family: "Geist-Medium";
 }
 
 /* =================================================
                     NAVBAR
 ================================================= */
 .title-qc{
+    width: 100%;
     text-align: center;
 }
 .title-qc-img{
@@ -83,6 +83,7 @@ h1{
     text-decoration: underline;
 }
 .nb a:hover{
+    color: var(--qc-green);
     text-decoration: underline;
 }
 /* =================================================
@@ -125,7 +126,7 @@ h1{
     padding: 0 0 0 30px;
 }
 #home .li-1{
-    font-family: "Geist-Bold";
+    font-family: "Geist-Medium";
 }
 /* =================================================
                     TEAM
@@ -157,12 +158,12 @@ h1{
 #partners .part a{
     margin-top: 10px;
     text-align: center;
-    font-family: var(--qc-bold);
     text-decoration: none;
-    color: var(--qc-grey);
+    font-family: "Geist-Medium";
+    color: var(--qc-gray);
 }
 #partners .part a:hover{
-    color: var(--qc-blue);
+    color: var(--qc-green);
 }
 
 /* =================================================
@@ -176,7 +177,7 @@ h1{
 }
 #projects .title{
     text-align: center;
-    font-family: var(--qc-bold);
+    font-family: "Geist-Medium";
 }
 #projects p{
     margin-bottom: 0;
@@ -199,8 +200,12 @@ h1{
     margin-top: 50px;
 }
 .contact-info{
+    color: var(--qc-gray);
     font-weight: bold;
     text-decoration: underline;
+}
+.contact-info:hover{
+    color: var(--qc-green);
 }
 /* =================================================
                   DOWNLOADS

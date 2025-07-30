@@ -9,7 +9,6 @@ Il s'agit plutôt d'une restructuration de l'ancien mais bon...
 - ```equipe``` ajouter cv + ref Muriel
 - ```equipe``` ajouter des partenaires privilégiés
 - ```projet``` ajouter des petits icones helps
-- ```telechargement``` ajouter le contenu pré existant
 
 ### LISTE DES PAGES
 - INDEX
